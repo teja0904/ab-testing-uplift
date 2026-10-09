@@ -62,9 +62,9 @@ Simulates what happens when you check p-values daily during the experiment. The 
 
 Three meta-learner approaches estimate individual-level treatment effects:
 
-- S-Learner — single model with treatment as a feature (score-uplift correlation: 0.985)
-- T-Learner — separate models for treatment and control (correlation: 0.987)
-- X-Learner — two-stage approach with imputed treatment effects (correlation: 0.996)
+- S-Learner - single model with treatment as a feature (score-uplift correlation: 0.985)
+- T-Learner - separate models for treatment and control (correlation: 0.987)
+- X-Learner - two-stage approach with imputed treatment effects (correlation: 0.996)
 
 Because the data is simulated, we can compare predicted uplift against the true treatment effect. The X-Learner achieves the best score-uplift correlation (0.996) and the highest correlation with the true individual treatment effect (0.576).
 
